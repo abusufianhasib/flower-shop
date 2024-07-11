@@ -152,12 +152,34 @@ body{
     flex-direction: column;
     row-gap: 2%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 .support-items-description{
     font-weight: 700;
     margin-top: 20px;
+    font-size: 18px;
     color: #27272780;
+}
+.hot-section{
+    background-color: #fdf6f8;
+    height: 60vh;width: 100%;
+    margin: 10vh 0 10vh 0;
+    padding: 0 10% 0 10%;
+}
+.hot-inner-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hot-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+.hot-image{
+    width: 30%;
 }
 
