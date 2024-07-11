@@ -50,3 +50,114 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/* Featured Flowers Sectio Starts here  */
+.featured-flowers{
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 7%;
+}
+.featured-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #272727;
+}
+.featured-section-description{
+    font-size: 18px;
+    color: #2727275d;
+    margin-top: 50px;
+    max-width: 500px;
+    text-align: center;
+}
+.flowers-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.flowers{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+    
+}
+.flower1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    background-color: #f2dee8;
+    padding: 3%;
+    border-radius: 50% 50% 0 0;
+}
+.flower2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    background-color: #daf0f1;
+    padding: 3%;
+    border-radius: 48% 48% 0 0;
+
+}
+.flower2 img{
+    width: 300px;
+    height: 400px;
+}
+.flower3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background-color: #e4ecdc;
+    padding: 3%;
+    border-radius: 50% 50% 0 0;
+}
+.flower3 img{
+    width: 300px;
+    height: 400px;
+}
+.flower-title{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.support-section-container{
+    padding: 5% 10% 5% 10%;
+}
+.support-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 100px 0 100px;
+    background-color: #f4f4f4;
+    padding: 5% 10% 5% 10%;
+    border-radius: 8px;
+
+}
+.support-items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2%;
+    align-items: center;
+    justify-content: center;
+
+}
+.support-items-description{
+    font-weight: 700;
+    margin-top: 20px;
+    color: #27272780;
+}
+
